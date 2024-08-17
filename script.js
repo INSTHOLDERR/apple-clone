@@ -1,4 +1,4 @@
-function toggleMenu() {
+function clickMenu() {
     const menu = document.getElementById('navbarMenu');
     menu.classList.toggle('active');
     

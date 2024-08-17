@@ -13,6 +13,7 @@
     height: 50px;
     width: 100%;
     background-color: rgb(234, 237, 237);
+  
 
   }
 
@@ -324,6 +325,7 @@
     display: flex;
     margin-bottom: 100px;
     overflow: hidden;
+    /* background-color: yellow; */
     /* background-color: aqua; */
   }
 
@@ -354,6 +356,7 @@
 .l-product-box {
   display: flex;
   flex-direction: column;
+  overflow:hidden;
   width: 500px;
   height: 700px;
   margin: 10px 10px;
@@ -370,12 +373,29 @@
 }
 
 
+@media (min-width: 1201px) and (max-width: 1501px) {
+  .l-product-box {
+  
+    width: 400px;
+    height: 500px;
+   
+  }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  
 
-.l-product-box:hover {
+}
+
+
+
+
+
+
+/* .l-product-box:hover {
   width: 510px; 
   height: 710px;
   box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3); 
-}
+} */
 
 @media screen and  (max-width: 560px){
 
@@ -598,7 +618,6 @@
   @media screen and (max-width:1015px) {
 
 
-    /* NAVBAR */
 
     .menu-button {
       display: block;
@@ -625,7 +644,7 @@
     .navbar__items li {
       width: 100%;
       box-shadow: -2rem 4rem 4rem rgba(0, 0, 0, 0.26);
-      animation: dropDown 500ms ease forwards;
+    
       opacity: 0;
       transform: rotateX(90deg);
       transform-origin: top;
@@ -637,65 +656,6 @@
       top: 5rem;
     }
 
-    @keyframes dropDown {
-      to {
-        opacity: 1;
-        transform: rotateX(0);
-      }
-    }
-
-    .navbar__items li:nth-child(1) {
-      animation-delay: 100ms;
-    }
-
-    .navbar__items li:nth-child(2) {
-      animation-delay: 200ms;
-    }
-
-    .navbar__items li:nth-child(3) {
-      animation-delay: 300ms;
-    }
-
-    .navbar__items li:nth-child(4) {
-      animation-delay: 400ms;
-    }
-
-    .navbar__items li:nth-child(5) {
-      animation-delay: 500ms;
-    }
-
-
-    .navbar__items li:nth-child(6) {
-      animation-delay: 600ms;
-    }
-
-    .navbar__items li:nth-child(7) {
-      animation-delay: 700ms;
-    }
-
-    .navbar__items li:nth-child(8) {
-      animation-delay: 800ms;
-    }
-
-    .navbar__items li:nth-child(9) {
-      animation-delay: 900ms;
-    }
-
-    .navbar__items li:nth-child(10) {
-      animation-delay: 1000ms;
-    }
-
-    .navbar__items li:nth-child(11) {
-      animation-delay: 1100ms;
-    }
-
-    .navbar__items li:nth-child(12) {
-      animation-delay: 1200ms;
-    }
-
-    .navbar__items li:nth-child(13) {
-      animation-delay: 1300ms;
-    }
 
 
 
